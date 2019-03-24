@@ -1,0 +1,27 @@
+start_time        : 1553341866
+last_update       : 1553451378
+fuzzer_pid        : 21411
+cycles_done       : 13
+execs_done        : 123294761
+execs_per_sec     : 591.38
+paths_total       : 9901
+paths_favored     : 840
+paths_found       : 9897
+paths_imported    : 0
+max_depth         : 37
+cur_path          : 9828
+pending_favs      : 0
+pending_total     : 5284
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 7.59%
+unique_crashes    : 0
+unique_hangs      : 500
+last_path         : 1553450886
+last_crash        : 0
+last_hang         : 1553395158
+execs_since_crash : 123294761
+exec_timeout      : 20
+afl_banner        : dwebp
+afl_version       : 2.35b
+command_line      : afl-fuzz -i in -o out-d ./examples/dwebp @@
