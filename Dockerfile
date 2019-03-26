@@ -3,7 +3,7 @@ RUN apt update
 
 WORKDIR /work
 
-RUN apt-get install -y make autoconf automake libtool libpng-dev libtiff-dev vim
+RUN apt-get install -y make autoconf automake libtool libpng-dev libtiff-dev vim gdb
 
 RUN git clone https://github.com/webmproject/libwebp.git
 
